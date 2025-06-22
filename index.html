@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MITS - Empowering Future IT Leaders</title>
+  <meta name="description" content="MITS provides IT training, hands-on experience, and strategic university partnerships to empower future IT professionals." />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous" />
+  <style>
+    .hero-bg {
+      background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('./assets/hero-background.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100">
+
+<!-- Header -->
+<header class="bg-white shadow sticky top-0 z-50">
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <a href="#" class="flex items-center space-x-2">
+      <img src="./assets/mits-logo.png" alt="MITS Logo" class="h-10">
+      <span class="text-2xl font-bold text-blue-700">MITS</span>
+    </a>
+    <nav class="hidden md:flex space-x-6 items-center">
+      <a href="#mission" class="text-gray-700 hover:text-blue-700 transition">Mission</a>
+      <a href="#partners" class="text-gray-700 hover:text-blue-700 transition">Partnerships</a>
+      <a href="#stats" class="text-gray-700 hover:text-blue-700 transition">Stats</a>
+      <a href="#contact" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 transition">Get Started</a>
+      <a href="#signup" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">Sign Up</a>
+    </nav>
+    <button id="menu-toggle" class="md:hidden text-2xl text-gray-700">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+  <!-- Mobile Nav -->
+  <div id="mobile-menu" class="hidden md:hidden px-4 pb-4">
+    <a href="#mission" class="block py-2">Mission</a>
+    <a href="#partners" class="block py-2">Partnerships</a>
+    <a href="#stats" class="block py-2">Stats</a>
+    <a href="#contact" class="block py-2 bg-blue-700 text-white rounded text-center mt-2">Get Started</a>
+    <a href="#signup" class="block py-2 bg-green-600 text-white rounded text-center mt-2">Sign Up</a>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero-bg text-white h-[85vh] flex items-center justify-center">
+  <div class="text-center px-4">
+    <h1 class="text-4xl md:text-6xl font-bold drop-shadow-lg">Empowering Future IT Leaders</h1>
+    <p class="mt-4 text-xl">Hands-on learning. Global university connections. Industry-ready skills.</p>
+    <div class="mt-6 space-x-4">
+      <a href="#contact" class="bg-blue-600 hover:bg-blue-800 px-6 py-3 rounded-lg transition">Join Now</a>
+      <a href="#signup" class="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg transition">Sign Up</a>
+    </div>
+  </div>
+</section>
+
+<!-- Mission Section -->
+<section id="mission" class="py-16 bg-gradient-to-r from-white via-gray-100 to-white text-center px-4">
+  <h2 class="text-3xl font-bold text-blue-700 mb-4">Our Mission</h2>
+  <p class="max-w-3xl mx-auto text-lg text-gray-700">
+    At MITS, our mission is to bridge the gap between education and the IT industry by delivering real-world training, cultivating innovation, and fostering global partnerships with top universities to produce industry-ready tech leaders.
+  </p>
+</section>
+
+<!-- University Partners Section -->
+<section id="partners" class="py-16 bg-gradient-to-r from-blue-50 to-green-50 px-4">
+  <h2 class="text-3xl font-bold text-center text-blue-700 mb-10">University Partnerships</h2>
+  <div class="grid grid-cols-2 md:grid-cols-5 gap-6 items-center justify-items-center">
+    <img src="/u1.jpg" alt="u1" class="h-16 w-auto grayscale hover:grayscale-0 transition">
+    <img src="/u2.jpeg" alt="u2" class="h-16 w-auto grayscale hover:grayscale-0 transition">
+    <img src="/u3.jpg" alt="u3" class="h-16 w-auto grayscale hover:grayscale-0 transition">
+    <img src="/u4.jpg" alt="u4" class="h-16 w-auto grayscale hover:grayscale-0 transition">
+    <img src="/u5.jpg" alt="u5" class="h-16 w-auto grayscale hover:grayscale-0 transition">
+    <img src="/u6.jpg" alt="u6" class="h-16 w-auto grayscale hover:grayscale-0 transition">
+    <img src="/u7.jpg" alt="u7" class="h-16 w-auto grayscale hover:grayscale-0 transition">
+    <img src="/u8.jpg" alt="u8" class="h-16 w-auto grayscale hover:grayscale-0 transition">
+    <img src="/u9.jpg" alt="u9" class="h-16 w-auto grayscale hover:grayscale-0 transition">
+    <img src="/u10.jpg" alt="u10" class="h-16 w-auto grayscale hover:grayscale-0 transition">
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section id="stats" class="py-16 bg-white text-center px-4">
+  <h2 class="text-3xl font-bold text-blue-700 mb-10">Our Community Reach</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-4xl mx-auto">
+    <div class="bg-gradient-to-br from-blue-100 to-blue-200 rounded-xl p-6 shadow-lg">
+      <i class="fab fa-facebook fa-3x text-blue-600 mb-4"></i>
+      <h3 class="text-xl font-semibold">Facebook Followers</h3>
+      <p class="text-2xl font-bold mt-2">12,000+</p>
+    </div>
+    <div class="bg-gradient-to-br from-blue-200 to-blue-300 rounded-xl p-6 shadow-lg">
+      <i class="fab fa-linkedin fa-3x text-blue-800 mb-4"></i>
+      <h3 class="text-xl font-semibold">LinkedIn Network</h3>
+      <p class="text-2xl font-bold mt-2">8,500+</p>
+    </div>
+    <div class="bg-gradient-to-br from-blue-100 to-blue-200 rounded-xl p-6 shadow-lg">
+      <i class="fab fa-twitter fa-3x text-blue-400 mb-4"></i>
+      <h3 class="text-xl font-semibold">Twitter Followers</h3>
+      <p class="text-2xl font-bold mt-2">4,200+</p>
+    </div>
+  </div>
+</section>
+
+<!-- Call-to-Action -->
+<section id="signup" class="py-16 bg-gradient-to-r from-green-200 to-blue-200 text-center px-4">
+  <h2 class="text-3xl font-bold text-gray-800 mb-4">Be a Part of Our Growing Tech Community</h2>
+  <p class="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">Join thousands of students and professionals who trust MITS to boost their IT careers. Signing up is easy and opens doors to exclusive resources.</p>
+  <a href="#contact" class="bg-blue-700 hover:bg-blue-800 text-white px-8 py-3 rounded-full text-lg transition">Sign Up Today</a>
+</section>
+
+<!-- Footer -->
+<footer id="contact" class="bg-blue-700 text-white py-10 text-center">
+  <h2 class="text-2xl font-semibold mb-2">Ready to build your IT career?</h2>
+  <p class="mb-6">Contact us at <a href="mailto:info@mits.edu" class="underline">info@mits.edu</a></p>
+  <p class="text-sm">&copy; 2025 Micro Information Technology Services (MITS). All rights reserved.</p>
+</footer>
+
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const mobileMenu = document.getElementById("mobile-menu");
+  menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+
+</body>
+</html>
